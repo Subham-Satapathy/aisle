@@ -1,0 +1,22 @@
+{
+  "name": "sales-tax-calculator",
+  "version": "1.0.0",
+  "description": "A sales tax calculator that computes taxes with specific rounding rules for items including import duties and exemptions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "Subham Satapathy",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ]
+  }
+}
