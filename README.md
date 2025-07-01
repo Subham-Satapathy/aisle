@@ -138,6 +138,7 @@ Run the comprehensive test suite:
 ```bash
 # Run tests
 npm test
+```
 
 ### Test Coverage
 
